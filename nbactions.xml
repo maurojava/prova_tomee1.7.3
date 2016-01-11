@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-avvio con tomee</actionName>
+            <displayName>avvio con tomee</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>package</goal>
+                <goal>tomee:run</goal>
+                
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-stop tomee</actionName>
+            <displayName>stop tomee</displayName>
+            <goals>
+                <goal>tomee:stop</goal>
+            </goals>
+        </action>
+    </actions>
