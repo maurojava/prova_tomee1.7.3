@@ -35,8 +35,8 @@ entityManager.createNativeQuery("SHUTDOWN").executeUpdate();
     catch(Exception e){
     e.printStackTrace();
     }
-    if(entityManager!=null){entityManager.close();
-    }
+  //  if(entityManager!=null){entityManager.close();
+    //}
 }
 
   

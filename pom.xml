@@ -163,6 +163,9 @@
           <context>ROOT</context>
            <tomeeVersion>1.7.3</tomeeVersion>
            <tomeeClassifier>plus</tomeeClassifier>
+          <tomeeHttpPort>9080</tomeeHttpPort>
+           <tomeeShutdownPort>9050</tomeeShutdownPort>
+      
         </configuration>
         
         
