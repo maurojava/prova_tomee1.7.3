@@ -18,5 +18,5 @@
 -->
 <%@ page session="false" %>
 <%
-    response.sendRedirect("book.jsf");
+    response.sendRedirect("pagina1primefaces.jsf");
 %>
